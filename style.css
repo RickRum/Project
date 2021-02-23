@@ -1,0 +1,143 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.main{
+	min-height: 1500px !important;
+}
+
+
+					/* NAVBAR */
+.navbar{
+	width: 100%;
+	/* position: fixed; */
+	padding: calc(2px + (7 - 2) * ((100vw - 320px) / (1600 - 320)));
+	padding-left: calc(20px + (40 - 20) * ((100vw - 320px) / (1600 - 320)));
+	padding-right: calc(20px + (40 - 20) * ((100vw - 320px) / (1600 - 320)));
+
+}
+.nav_part{
+	min-height: 60px;
+}
+.navbar-brand{
+	font-size: calc(16px + (26 - 16) * ((100vw - 320px) / (1600 - 320)));
+}
+.nav-link{
+	font-size: calc(12px + (18 - 12) * ((100vw - 320px) / (1600 - 320)));
+}
+/* END */
+
+
+					/* HEADER */
+.header_info{
+	/* background-color: #152E8A; */
+	min-height: 500px;
+	text-align: center;
+	align-items: center;
+	padding-top: calc(30px + (50 - 30) * ((100vw - 320px) / (1600 - 320)));
+	padding-bottom: calc(20px + (50 - 20) * ((100vw - 320px) / (1600 - 320)));
+	padding-left: calc(15px + (30 - 15) * ((100vw - 320px) / (1600 - 320)));
+	padding-right: calc(15px + (30 - 15) * ((100vw - 320px) / (1600 - 320)));
+}
+.header_info_text_part{
+	justify-content: center;
+	margin: 5px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	padding: calc(15px + (30 - 15) * ((100vw - 320px) / (1600 - 320)));
+	font-size: calc(12px + (20 - 12) * ((100vw - 320px) / (1600 - 320)));
+	font-family: Century Gothic;
+}
+.header_info_buttons{
+	justify-content: center;
+	align-items: center;
+}
+.btn_header_part{
+	padding: calc(5px + (10 - 5) * ((100vw - 320px) / (1600 - 320)));
+	border-radius: 25px;
+	font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (1600 - 320)));
+	margin-right: 10px;
+}
+
+/* END */
+
+
+/* REGISTRATION */
+.registation_part{
+	min-height: 700px;
+	background-color: lightcyan;
+	padding-top: calc(30px + (50 - 30) * ((100vw - 320px) / (1600 - 320)));
+	padding-bottom: calc(20px + (50 - 20) * ((100vw - 320px) / (1600 - 320)));
+	padding-left: calc(15px + (30 - 15) * ((100vw - 320px) / (1600 - 320)));
+	padding-right: calc(15px + (30 - 15) * ((100vw - 320px) / (1600 - 320)));
+}
+
+.about_binance{
+	align-self: center;
+	justify-content: center;
+	padding: calc(15px + (30 - 15) * ((100vw - 320px) / (1600 - 320)));
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.about_binance_title_part{
+	font-size: calc(16px + (26 - 16) * ((100vw - 320px) / (1600 - 320)));
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+.about_binance_title{
+	text-decoration: none;
+	color: black;
+}
+
+.about_binance_body{
+	font-size: calc(12px + (18 - 12) * ((100vw - 320px) / (1600 - 320)));
+}
+
+.registration_icon{
+	padding-left: 10px;
+	text-decoration: none;
+}
+
+.registration_image{
+	background-image: url(Img/registration_without_phone_parth.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin: 0 auto;
+	min-height: calc(550px + (600 - 550) * ((100vw - 320px) / (1600 - 320)));
+	max-width:	400px;
+}
+/* END */
+
+
+/* TELEGRAM BOT */
+
+.telegram_bot_parth{
+	min-height: 600px;
+	align-items: center;
+	background-color: #122272;
+	padding-top: calc(30px + (50 - 30) * ((100vw - 320px) / (1600 - 320)));
+	padding-bottom: calc(20px + (50 - 20) * ((100vw - 320px) / (1600 - 320)));
+	padding-left: calc(15px + (30 - 15) * ((100vw - 320px) / (1600 - 320)));
+	padding-right: calc(15px + (30 - 15) * ((100vw - 320px) / (1600 - 320)));
+}
+
+.title_part_about_bot{
+	font-size: calc(16px + (33 - 16) * ((100vw - 320px) / (1600 - 320)));
+}
+
+.video_about_bot{
+	text-align: center;
+}
+
+.video_about_bot  span{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+	font-size: calc(16px + (33 - 16) * ((100vw - 320px) / (1600 - 320)));
+}
+
+/* END */
